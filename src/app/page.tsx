@@ -29,7 +29,7 @@ const HeroSection = () => {
         <div className="space-y-2 font-cormorant-garamond-regular text-[#8B4513]">
           <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl italic">May 26, 2025</p>
           <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl italic">
-            St. Mary's Church, Peramangalam
+            St. Mary&apos;s Church, Peramangalam
           </p>
         </div>
       </div>
