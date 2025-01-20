@@ -14,7 +14,7 @@ const BigDaySection = () => {
           </h2>
           <div className="space-y-4 text-[#8B4513] font-cormorant-garamond-regular text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl">
             <p>When: May 26, 2025 at 12:00 PM</p>
-            <p>Where: St. Mary's Church, Peramangalam</p>
+            <p>Where: St. Mary&apos;s Church, Peramangalam</p>
             <p>What: Come in cocktail attire!</p>
           </div>
         </div>
