@@ -12,9 +12,9 @@ const StorySection = () => {
         We met in the wrong place <br /> at the right time.
       </h1>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] leading-relaxed max-w-3xl">
-        It was a children’s party, of all places. They were probably the only
+        It was a children&apos;s party, of all places. They were probably the only
         single adults in the room, which is why they started talking in the
-        first place. They hit it off so well, they didn’t even stay for cake!{" "}
+        first place. They hit it off so well, they didn&apos;t even stay for cake!{" "}
         <span className="italic">(They kind of regretted this, actually.)</span>
       </p>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] leading-relaxed max-w-3xl mt-11">
