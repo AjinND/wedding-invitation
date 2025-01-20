@@ -12,6 +12,12 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      fontFamily: {
+        'leJour': ['Le Jour Script', 'sans-serif'], // Add a fallback font
+        'gistesy': ['Gistesy', 'sans-serif'],
+        'cormorant-garamond-regular': ['CormorantGaramond-Regular', 'sans-serif'],
+        'eb-garamond-italic': ['EBGaramond-Italic', 'sans-serif'],
+      },
     },
   },
   plugins: [],

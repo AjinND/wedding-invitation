@@ -1,3 +1,35 @@
+@font-face {
+  font-family: 'Le Jour Script';
+  src: url('/fonts/LeJourScript.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Recommended for better performance */
+}
+
+@font-face {
+  font-family: 'Gistesy';
+  src: url('/fonts/Gistesy.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Recommended for better performance */
+}
+
+@font-face {
+  font-family: 'CormorantGaramond-Regular';
+  src: url('/fonts/CormorantGaramond-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Recommended for better performance */
+}
+
+@font-face {
+  font-family: 'EBGaramond-Italic';
+  src: url('/fonts/EBGaramond-Italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap; /* Recommended for better performance */
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
