@@ -5,7 +5,7 @@ const ReceptionSection = () => {
 
     if (/iPhone|iPad|iPod/i.test(userAgent)) {
       // Use Apple Maps for iOS devices
-      mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}`;
+      mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${latitude},${longitude}&mark=${latitude},${longitude}`;
     } else if (/Android/i.test(userAgent)) {
       // Use geo: scheme for Android devices
       mapsUrl = `geo:${latitude},${longitude}?q=${latitude},${longitude}`;
@@ -40,7 +40,7 @@ const ReceptionSection = () => {
             <h3
               className="text-xl font-cormorant-garamond-regular text-[#8B4513] border-b border-[#8B4513] border-dotted inline-block cursor-pointer"
               onClick={() =>
-                handleClick("76.1616278447862", "10.575099556271358")
+                handleClick("76.1616918603015", "10.575071176405423")
               }
             >
               LOCATION

@@ -5,7 +5,7 @@ const FinalSection = () => {
 
     if (/iPhone|iPad|iPod/i.test(userAgent)) {
       // Use Apple Maps for iOS devices
-      mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}`;
+      mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${latitude},${longitude}&mark=${latitude},${longitude}`;
     } else if (/Android/i.test(userAgent)) {
       // Use geo: scheme for Android devices
       mapsUrl = `geo:${latitude},${longitude}?q=${latitude},${longitude}`;
@@ -40,7 +40,7 @@ const FinalSection = () => {
         </h2>
         <button
           className="px-8 py-3 border border-[#C4A484] text-[#8B4513] font-cormorant-garamond-regular hover:bg-[#C4A484]/10 transition-colors duration-300"
-          onClick={() => handleClick("76.1616278447862", "10.575099556271358")}
+          onClick={() => handleClick("76.1616918603015", "10.575071176405423")}
         >
           OPEN LOCATION
         </button>
