@@ -134,16 +134,16 @@ const CountdownTimer = () => {
             className="relative flex items-center justify-center"
             style={{
               backgroundImage: "url('/border.png')",
-              height: "17rem",
-                width: "17rem",
+              height: "12rem",
+                width: "12rem",
             }}
           >
             <div
               className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-cover bg-center flex items-center justify-center"
               style={{
                 backgroundImage: "url('/border.png')",
-                height: "17rem",
-                width: "17rem",
+                height: "12rem",
+                width: "12rem",
               }}
             >
               <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full flex items-center justify-center">
