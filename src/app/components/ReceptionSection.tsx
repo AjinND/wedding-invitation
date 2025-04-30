@@ -1,21 +1,21 @@
 const ReceptionSection = () => {
-  const handleClick = (longitude: string, latitude: string) => {
-    const userAgent = navigator.userAgent;
-    let mapsUrl = "";
+  // const handleClick = (longitude: string, latitude: string) => {
+  //   const userAgent = navigator.userAgent;
+  //   let mapsUrl = "";
 
-    if (/iPhone|iPad|iPod/i.test(userAgent)) {
-      // Use Apple Maps for iOS devices
-      mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${latitude},${longitude}&mark=${latitude},${longitude}`;
-    } else if (/Android/i.test(userAgent)) {
-      // Use geo: scheme for Android devices
-      mapsUrl = `geo:${latitude},${longitude}?q=${latitude},${longitude}`;
-    } else {
-      // Use Google Maps for desktop
-      mapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
-    }
+  //   if (/iPhone|iPad|iPod/i.test(userAgent)) {
+  //     // Use Apple Maps for iOS devices
+  //     mapsUrl = `https://maps.apple.com/?ll=${latitude},${longitude}&q=${latitude},${longitude}&mark=${latitude},${longitude}`;
+  //   } else if (/Android/i.test(userAgent)) {
+  //     // Use geo: scheme for Android devices
+  //     mapsUrl = `geo:${latitude},${longitude}?q=${latitude},${longitude}`;
+  //   } else {
+  //     // Use Google Maps for desktop
+  //     mapsUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+  //   }
 
-    window.open(mapsUrl, "_blank");
-  };
+  //   window.open(mapsUrl, "_blank");
+  // };
 
   return (
     <div
