@@ -48,8 +48,24 @@ const CountdownTimer = () => {
   });
 
   const calculateTimeLeft = () => {
-    const difference = new Date("2025-05-26").getTime() - new Date().getTime();
+    // Set the target date to May 25th, 2025 at 11:30 AM
+    const targetDate = new Date("2025-05-25T11:30:00");
+    const now = new Date();
     
+    // Calculate difference in milliseconds
+    const difference = targetDate.getTime() - now.getTime();
+    
+    // If the target date has passed or reached, return all zeros
+    if (difference <= 0) {
+      return {
+        days: 0,
+        hours: 0,
+        minutes: 0,
+        seconds: 0
+      };
+    }
+    
+    // Otherwise calculate remaining time
     return {
       days: Math.floor(difference / (1000 * 60 * 60 * 24)),
       hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
@@ -63,7 +79,13 @@ const CountdownTimer = () => {
     setTimeLeft(calculateTimeLeft());
     
     const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
+      const newTimeLeft = calculateTimeLeft();
+      setTimeLeft(newTimeLeft);
+      
+      // If all values are 0, clear the interval to stop the countdown
+      if (Object.values(newTimeLeft).every(value => value === 0)) {
+        clearInterval(timer);
+      }
     }, 1000);
 
     return () => clearInterval(timer);
@@ -134,20 +156,20 @@ const CountdownTimer = () => {
             className="relative flex items-center justify-center"
             style={{
               backgroundImage: "url('/border.png')",
-              height: "12rem",
-                width: "12rem",
+              height: "11.5rem",
+                width: "11.5rem",
             }}
           >
             <div
               className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-cover bg-center flex items-center justify-center"
               style={{
                 backgroundImage: "url('/border.png')",
-                height: "12rem",
-                width: "12rem",
+                height: "11.5rem",
+                width: "11.5rem",
               }}
             >
               <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full flex items-center justify-center">
-                <div className="text-center">
+                <div className="text-center" style={{fontWeight: "bold"}}>
                   <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-gistesy text-[#C4A484]">
                     {String(value).padStart(2, "0")}
                   </div>
