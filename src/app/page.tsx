@@ -24,7 +24,7 @@ const HeroSection = () => {
           weds
         </p>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-cormorant-garamond-regular text-[#8B4513] mb-16">
-          DENCY LAZER
+          DENCY LAZAR
         </h1>
         <div className="space-y-2 font-cormorant-garamond-regular text-[#8B4513]">
           <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl italic">May 26, 2025</p>
@@ -78,7 +78,7 @@ const CountdownTimer = () => {
           backgroundImage: "url('/countdown_background.png')",
         }}
       >
-        <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-gistesy text-[#E6A19A] mb-16">
+        <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-gistesy text-[#E6A19A] mb-16">
           Countdown Starts
         </h2>
         <div className="grid grid-cols-2 gap-8 max-w-4xl sm:flex sm:flex-wrap sm:justify-center">
@@ -90,11 +90,11 @@ const CountdownTimer = () => {
                 backgroundImage: "url('/border.png')",
               }}
             >
-              <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 bg-cover bg-center flex items-center justify-center"
+              <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-cover bg-center flex items-center justify-center"
                 style={{
                   backgroundImage: "url('/border.png')",
                 }}>
-                <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full flex items-center justify-center">
+                <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full flex items-center justify-center">
                   <div className="text-center">
                     <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-gistesy text-[#C4A484]">
                       00
@@ -119,7 +119,7 @@ const CountdownTimer = () => {
         backgroundImage: "url('/countdown_background.png')",
       }}
     >
-      <h2 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-gistesy text-[#E6A19A] mb-16">
+      <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-gistesy text-[#E6A19A] mb-16">
         Countdown Starts
       </h2>
       <div className="grid grid-cols-2 gap-8 max-w-4xl sm:flex sm:flex-wrap sm:justify-center">
@@ -134,15 +134,19 @@ const CountdownTimer = () => {
             className="relative flex items-center justify-center"
             style={{
               backgroundImage: "url('/border.png')",
+              height: "17rem",
+                width: "17rem",
             }}
           >
             <div
-              className="w-24 h-24 sm:w-28 sm:h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 bg-cover bg-center flex items-center justify-center"
+              className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 bg-cover bg-center flex items-center justify-center"
               style={{
                 backgroundImage: "url('/border.png')",
+                height: "17rem",
+                width: "17rem",
               }}
             >
-              <div className="w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 lg:w-36 lg:h-36 rounded-full flex items-center justify-center">
+              <div className="w-28 h-28 sm:w-32 sm:h-32 md:w-40 md:h-40 lg:w-48 lg:h-48 rounded-full flex items-center justify-center">
                 <div className="text-center">
                   <div className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-gistesy text-[#C4A484]">
                     {String(value).padStart(2, "0")}

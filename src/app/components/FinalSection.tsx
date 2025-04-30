@@ -22,12 +22,12 @@ const FinalSection = () => {
       {/* Gallery */}
       <div className="w-full max-w-6xl grid grid-cols-2 gap-4">
         <img
-          src="/main_photo.png"
+          src="/IMG_1678-enhanced.jpg"
           alt="Couple moment 1"
           className="w-full aspect-[4/3] object-cover"
         />
         <img
-          src="/main_photo.png"
+          src="/IMG_1661.jpg"
           alt="Couple moment 2"
           className="w-full aspect-[4/3] object-cover"
         />
@@ -39,10 +39,13 @@ const FinalSection = () => {
           And so it begins.
         </h2>
         <button
-          className="px-8 py-3 border border-[#C4A484] text-[#8B4513] font-cormorant-garamond-regular hover:bg-[#C4A484]/10 transition-colors duration-300"
+          className="border border-[#C4A484] text-[#8B4513] font-cormorant-garamond-regular hover:bg-[#C4A484]/10 transition-colors duration-300"
           onClick={() => handleClick("76.1616918603015", "10.575071176405423")}
         >
-          OPEN LOCATION
+          <img
+            src="/map.jpg"
+            className="w-20 h-20 inline-block"
+            alt="Location Icon" />
         </button>
       </div>
     </div>
