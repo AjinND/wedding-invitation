@@ -3,31 +3,35 @@
   src: url('/fonts/LeJourScript.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Recommended for better performance */
+  font-display: swap;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: 'Gistesy';
-  src: url('/fonts/Gistesy.ttf');
+  src: url('/fonts/Gistesy.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Recommended for better performance */
+  font-display: swap;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: 'CormorantGaramond-Regular';
-  src: url('/fonts/CormorantGaramond-Regular.ttf');
+  src: url('/fonts/CormorantGaramond-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Recommended for better performance */
+  font-display: swap;
+  font-stretch: normal;
 }
 
 @font-face {
   font-family: 'EBGaramond-Italic';
-  src: url('/fonts/EBGaramond-Italic.ttf');
+  src: url('/fonts/EBGaramond-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  font-display: swap; /* Recommended for better performance */
+  font-display: swap;
+  font-stretch: normal;
 }
 
 @tailwind base;
