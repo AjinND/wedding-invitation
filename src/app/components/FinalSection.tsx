@@ -1,7 +1,6 @@
 'use client';
 import { useState, useEffect, memo } from "react";
 import Image from "next/image";
-import { on } from "events";
 
 // Define the image type
 type GalleryImage = {
