@@ -8,19 +8,17 @@ const StorySection = () => {
         backgroundImage: "url('/story_background.png')",
       }}
     >
-      <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-eb-garamond-italic text-[#8B4513] mb-24">
+      {/* <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-eb-garamond-italic text-[#8B4513] mb-24">
         We met in the wrong place <br /> at the right time.
-      </h1>
+      </h1> */}
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] leading-relaxed max-w-3xl">
-        It was a children&apos;s party, of all places. They were probably the only
-        single adults in the room, which is why they started talking in the
-        first place. They hit it off so well, they didn&apos;t even stay for cake!{" "}
-        <span className="italic">(They kind of regretted this, actually.)</span>
+        No amount of time will be sufficing enough to celebrate our union. This is just the beginning of a
+        lifetime filled with love, happiness and memories with blessings from above. May the love that brought
+        us together remain forever in our heart and may the bond that we share give us strength when we apart
       </p>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] leading-relaxed max-w-3xl mt-11">
-        Fast forward to a year and a half later. A ring, a sunset, and a
-        surprise serenade sealed the deal. They decided to get married, and they
-        hope you can be a part of it.
+        We're tying the knot and would love for you to be there to celebrate with us. Choose a 
+        seat, not a side, you are loved by both bride and groom.
       </p>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] mt-11">
         And please, stay for cake.

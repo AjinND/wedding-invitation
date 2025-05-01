@@ -150,7 +150,7 @@ const CountdownTimer = () => {
         backgroundImage: "url('/countdown_background.png')",
       }}
     >
-      <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-gistesy text-[#E6A19A] mb-16">
+      <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-gistesy font-bold text-[#E6A19A] mb-16">
         Countdown Starts
       </h2>
       <div className="grid grid-cols-2 gap-8 max-w-4xl sm:flex sm:flex-wrap sm:justify-center">

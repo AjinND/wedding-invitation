@@ -1,6 +1,7 @@
 'use client';
 import { useState, useEffect, memo } from "react";
 import Image from "next/image";
+import { on } from "events";
 
 // Define the image type
 type GalleryImage = {
@@ -59,6 +60,12 @@ const ImageModal = memo(({ image, onClose }: {
           onClick={(e) => e.stopPropagation()}
           priority
         />
+        <button
+              className="absolute top-4 right-4 w-8 h-8 flex items-center justify-center bg-white bg-opacity-80 rounded-full text-gray-800 hover:bg-opacity-100 transition-all duration-300"
+              onClick={onClose}
+            >
+              ×
+            </button>
       </div>
     </div>
   );
@@ -127,7 +134,7 @@ const FinalSection = () => {
       height: 400
     },
     { 
-      src: "/IMG_1639.jpg", 
+      src: "/IMG_03.jpg", 
       alt: "Couple moment 4", 
       className: "col-span-1 row-span-2", // Rectangle (middle right)
       width: 400,
@@ -153,6 +160,27 @@ const FinalSection = () => {
       className: "col-span-1 row-span-1", // Small square (middle bottom left)
       width: 400,
       height: 400
+    },
+    { 
+      src: "/IMG_01.jpg", 
+      alt: "Couple moment 8", 
+      className: "col-span-1 row-span-2", // Small square (middle bottom left)
+      width: 400,
+      height: 800
+    },
+    { 
+      src: "/IMG_02.jpg", 
+      alt: "Couple moment 9", 
+      className: "col-span-1 row-span-1", // Small square (middle bottom left)
+      width: 400,
+      height: 400
+    },
+    { 
+      src: "/IMG_1639.jpg", 
+      alt: "Couple moment 10", 
+      className: "col-span-1 row-span-2", // Small square (middle bottom left)
+      width: 400,
+      height: 800
     },
   ];
 

@@ -71,7 +71,7 @@ const CoupleDetailsSection = () => {
       }}
     >
       <div className="w-full max-w-6xl mx-auto px-4">
-        <h2 className="text-6xl sm:text-7xl md:text-8xl font-leJour text-[#8B4513] mb-16 text-center transform transition-all duration-1000 ease-out" 
+        <h2 className="text-6xl sm:text-7xl md:text-8xl font-gistesy text-[#8B4513] mb-16 text-center transform transition-all duration-1000 ease-out" 
             style={{ 
               opacity: isVisible ? 1 : 0,
               transform: isVisible ? 'translateY(0)' : 'translateY(20px)'
@@ -108,7 +108,7 @@ const CoupleDetailsSection = () => {
               </div>
               
               <div className="text-center">
-                <h3 className="font-leJour text-[#8B4513] text-4xl md:text-5xl mb-3">{person.role}</h3>
+                <h3 className="font-gistesy font-bold text-[#8B4513] text-4xl md:text-5xl mb-3">{person.role}</h3>
                 <div className="font-cormorant-garamond-regular text-xl md:text-2xl text-[#8B4513] space-y-2">
                   <p className="font-semibold text-2xl md:text-3xl">{person.name}</p>
                   <p>{person.designation} {person.father} & {person.mother}</p>

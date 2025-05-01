@@ -13,9 +13,9 @@ const BigDaySection = () => {
             The Big Day
           </h2>
           <div className="space-y-4 text-[#8B4513] font-cormorant-garamond-regular text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-3xl">
-            <p>When: May 26, 2025 at 12:00 PM</p>
+            <p>When: May 26, 2025 at 11:30 PM</p>
             <p>Where: St. Mary&apos;s Church, Peramangalam</p>
-            <p>What: Come in cocktail attire!</p>
+            {/* <p>What: Come in cocktail attire!</p> */}
           </div>
         </div>
         {/* Right side image */}
