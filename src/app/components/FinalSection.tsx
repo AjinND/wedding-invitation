@@ -47,7 +47,7 @@ const ImageModal = memo(({ image, onClose }: {
       className="fixed inset-0 z-[9999] flex items-center justify-center"
       onClick={onClose}
     >
-      <div className="absolute inset-0 bg-black/80 backdrop-blur-md" />
+      <div className="absolute inset-0 bg-transparent backdrop-blur-md" />
       
       <div className="relative z-10 max-w-4xl max-h-screen p-4 transform transition-all duration-300">
         <Image
