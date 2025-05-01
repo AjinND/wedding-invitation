@@ -17,7 +17,7 @@ const StorySection = () => {
         us together remain forever in our heart and may the bond that we share give us strength when we apart
       </p>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] leading-relaxed max-w-3xl mt-11">
-        We're tying the knot and would love for you to be there to celebrate with us. Choose a 
+        We&apos;re tying the knot and would love for you to be there to celebrate with us. Choose a 
         seat, not a side, you are loved by both bride and groom.
       </p>
       <p className="text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-2xl font-eb-garamond-italic text-[#8B4513] mt-11">
