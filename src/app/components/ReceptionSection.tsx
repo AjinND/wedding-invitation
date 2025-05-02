@@ -27,7 +27,7 @@ const ReceptionSection = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 md:gap-4 px-4 md:px-16">
         {/* Left side content - reduced spacing */}
         <div className="flex flex-col justify-center text-center md:text-left md:pr-8">
-          <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-leJour text-[#8B4513] mb-8">
+          <h2 className="text-5xl sm:text-5xl md:text-7xl lg:text-8xl xl:text-9xl font-gistesy text-[#8B4513] mb-8">
             Reception
           </h2>
           <div className="space-y-3 text-[#8B4513] font-cormorant-garamond-regular text-xl sm:text-2xl md:text-2xl lg:text-3xl xl:text-3xl">
