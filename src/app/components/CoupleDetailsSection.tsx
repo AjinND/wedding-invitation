@@ -54,7 +54,7 @@ const CoupleDetailsSection = () => {
     },
     {
       role: "Bride",
-      name: "Denzy Lazar",
+      name: "Dency Lazar",
       father: "Lazar A K",
       mother: "Beena P A",
       houseName: "Alookaran House",
